@@ -1,0 +1,496 @@
+/*
+Copyright: Church of the Holy Spirit 2006, stylesheet.css
+License: Released Under the "Common Public License 1.0", 
+License: Released Under the "GNU Creative Commons License", 
+http://creativecommons.org/licenses/GPL/2.0/
+*/
+
+/* ------------------------------------------  Main Body Style */
+
+BODY {
+background: url(../images/siteStructure/transparentLogo.png);
+position:relative;
+background-repeat: no-repeat; 
+background-color:	#FFFFF0;
+/* background-color:	#FFFFF0;  */
+background-position: 350px 250px;
+background-attachment: fixed; 
+margin-left: 10px;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-right: 10px;
+z-index:1
+}
+
+a:link { 	
+font-color: #0000FF;	
+color:#0000FF;:
+font-weight: normal;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+text-decoration: none;
+cursor: crosshair;
+} 
+
+a:hover { 
+font-color:#FFFFFF;		
+font-weight: bold ;
+color: #0000FF; 
+cursor: crosshair;
+; text-decoration: underline
+
+} 
+
+a:active { 
+font-color: #996633;	
+color: #0000FF;	
+cursor: crosshair;	 
+}
+
+a:visited { 
+font-color: #FF00FF;	
+color: #0000FF; 
+font-weight: bold; 
+text-decoration: none; 
+cursor: crosshair;
+} 
+
+
+/* ---------- OFF Site Links -------- SEE: pagesV3/test-page.htm	------------------ */
+ 
+a.y:link {color: #0000FF; text-decoration: none; }
+a.y:visited {color: #0000FF; text-decoration: none; }
+a.y:hover {color: #0000FF; text-decoration: underline; }
+a.y:active {color: #0000FF; text-decoration: none; }
+
+
+
+/* **********************************************	CSS drop shadow Style */
+#shadow-container {
+    position: relative;
+    left: 3px;
+    top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+#shadow-container .shadow2,
+#shadow-container .shadow3,
+#shadow-container .container {
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+
+    #shadow-container .shadow1 {
+        background: #F1F0F1;
+    }
+
+    #shadow-container .shadow2 {
+        background: #DBDADB;
+    }
+
+    #shadow-container .shadow3 {
+        background: #B8B6B8;
+    }
+
+    #shadow-container .container {
+        background: 	#FFFFF0;
+        border: 1px solid #848284;                                                                
+        padding: 10px;                                                                                                      
+    }
+/* ------------------------------------------  Paragraph Style */
+ P {
+font-size: 12px; 
+margin-left: 10px;
+}
+/* ------------------------------------------ First letter in Paragraph Style */
+p:first-letter {
+font-size: 125%; 
+font-weight:normal; 
+} 
+
+#left {
+position:absolute; 
+left:0; 
+top:0px; 
+bottom:0px; 
+width:200px; 
+background:url(images/blueGradient00.jpg); 
+font-size:1em; 
+z-index:4; 
+overflow:auto; 
+background-repeat:no-repeat;
+}
+
+#content p {
+padding:10px;
+}
+
+.mm-12-white{ 
+color: blue
+font-weight: bold
+cursor: help;
+background-color: white;
+text-decoration: none;
+border: 1px black inset;  
+font-family: Geneva, Arial, Helvetica, san-serif; 
+font-size: 12px; 
+font-style: normal;
+width: 410px; 
+}
+
+
+.mm-14-yellow { 
+color: black; 
+font-family: "Trebuchet MS", sans-serif, serif; 
+font-weight: normal; 
+background-color: #FFFF66: normal;
+float: left;
+background-color: yellow;
+text-decoration: none;
+border: 2px black inset;  
+font-family: Geneva, Arial, Helvetica, san-serif; 
+font-size: 14px; 
+font-style: normal;
+width: 410px; 
+}
+
+
+/* ********************************************** FONT styles   */
+font { align: center;
+       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+       font-size: 16px;
+ }
+
+.txt-black-sm {  
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+font-size: 11px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: 200; 
+color: #000000:
+}
+
+.txt-black-large {  
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+font-size: 13px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: 300; 
+color: #000000:
+}
+
+.txt-black-sm-bold {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 11px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bolder;
+color: #000000;
+}
+
+.txt-black-lg-bold {  
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 13px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold;
+color: #000000;
+}
+
+.txt-brown-sm {  
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: 200; 
+color: #996633;:
+}
+
+.txt-brown-sm-bold {  
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold;
+color: #996633;:
+}
+
+.txt-brown-lg-bold {  
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold;
+color: #996633;:
+}
+
+.txt-blue-sm {  
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: 200; 
+color: #0099CC;
+}
+
+.txt-blue-large {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 13px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: 300; 
+color:#0099CC;
+}
+
+.txt-blue-sm-bold {  
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold;
+color: #0099CC;
+}
+
+.txt-blue-lg-bold {  
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: bold;
+color: #0099CC;
+}
+
+.title-small {  
+font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+font-size: 14px; 
+color: #c1230d; 
+font-weight: bold;
+}
+
+.title-large {  
+font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+font-size: 18px; 
+color: #c1230d; 
+font-weight: bolder; 
+font-style: normal;
+}
+
+
+.footer {  
+font-family: Geneva, Arial, Helvetica, san-serif; 
+font-size: 10px; 
+font-style: normal; 
+font-weight: 500; 
+color: #000000;
+}
+
+
+
+/* ********************* IMAGEs (FLOAT left, right) */
+img.floatLeft { 
+    float: left; 
+    margin: 10px; 
+    background-color:	#FFFFF0; 
+    border: 2px solid black; 
+}
+
+img.floatRight { 
+    float: right; 
+    margin: 10px; 
+}
+
+/* ********************* IMAGEs (FLOAT multiple) */
+img.floatRightClear { 
+    float: right; 
+    clear: right; 
+    margin: 10px; 
+}
+
+
+/* *** Horizontal Rule */
+hr{
+border: outset navy;
+}
+
+#pscroller1{
+width: 300px;
+height: 110px;
+border: 1px solid black;
+padding: 5px;
+background-color: lightyellow;
+}
+
+.col-heading-1 {  
+font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+font-size: 12px; 
+font-weight: bold; 
+color: #FFFFFF; 
+background-color:#3399FF; 
+height: 12px; 
+width: 410px; 
+border-color: black black #3366CC; 
+margin: 2px;
+border-style: inset; 
+clip:   rect(   )
+float: left;
+}
+
+.bkg-brown {  
+	color: #996633; 
+	font-weight: bold;
+	float: left;	/*BROWN */
+	width: 410px;
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px; 
+}
+
+
+.bkg-tan {  
+	color:#336666; 
+	font-weight: bold;
+	float: left;	/* TAN*/
+	width: 410px;
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px; 
+}
+
+.bkg-grey {  
+	color:#FF6633;
+	font-weight: bold;
+	float: left;
+	background: #FFFFFF;	/* Grey */
+	width: 410px;
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px; 
+}
+
+.bkg-pale-red {  
+	color:#0000FF;
+	font-weight: bold;
+	float: left;	/* red*/
+	width: 410px;
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px; 
+}
+
+.content {
+	font-color:white;
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	background: grey;
+	width: 410px;
+	}
+
+
+.header {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #990000;
+	line-height: 20px;
+}
+.subhead1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 23px;
+	line-height: 23px;
+	font-weight: normal;
+	color: #003366;
+}
+.subhead2 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #993300;
+}
+.subhead3 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #003366;
+}
+.subhead4 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #663300;
+	text-transform: uppercase;
+}
+
+.bullets {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #000000;
+	font-size: 11px;
+	line-height: 14px;
+	list-style-type: none;
+	list-style-position: inside;
+	list-style-image: none;
+}
+.bodyMain {
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 11.5px;
+	line-height: 18px;
+}
+.lists {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	line-height: 14px;
+}
+.bodyEmphas {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #003366;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+}
+.bodyLessleading {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	line-height: 14px;
+}
+.LitMinTitle {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #003366;
+}
+.quote {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #003366;
+	text-align: left;
+}
+.quoteAuthor {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 140%;
+	font-weight: normal;
+	color: #996600;
+	text-align: right;
+}
+.tableBody {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+
+.Color-red-13 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #FA520A;
+}
