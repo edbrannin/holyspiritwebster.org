@@ -1,0 +1,48 @@
+/* Copyright 1998-2001 by Marc J. Rochkind. All rights reserved. */
+.idx-body		{ margin-left: 10px;
+				  background-color: Silver;
+				  background-image: url('slatebg.jpg');
+				}
+.idx-bodytext	{ font-family: Verdana, Arial, Helvetica, sans-serif;
+				  font-size: small;
+				  color: #FFFFCC;
+				}
+.idx-table		{ background-color: Red;
+				  background-image: url('slatebg.jpg');
+				}
+.idx-title		{ font-size: large }
+.idx-click-for-enl { font-style: italic }
+.idx-desc		{ }
+.idx-liblinks	{ font-size: x-small; margin-top: 20px; margin-bottom: 0px; white-space: nowrap }
+.idx-show-click-for-title { italic; margin-top: 20px; margin-bottom: 0px }
+.idx-email		{ font-size: x-small; margin-top: 20px; margin-bottom: 0px }
+.idx-generated	{ font-size: x-small; margin-top: 5px }
+.idx-td			{ color: #FFFFCC; font-size: small;
+				  font-family: Verdana, Arial, Helvetica, sans-serif; }
+.idx-label		{ font-size: x-small;  font-style: italic; margin-top: 0px; margin-bottom: 0px; text-align: center }
+.idx-filename	{ font-size: x-small;  margin-top: 0px; margin-bottom: 0px; text-align: center }
+.idx-caption	{ margin-top: 0px; text-align: left }
+.idx-img		{ }
+.idx-linkstyle A:link		{ color: #FFFFCC }
+.idx-linkstyle A:visited	{ color: #FFFFCC }
+.idx-linkstyle A:active		{ color: #FFFFCC }
+
+.enl-body		{ font-family: Verdana, Arial, Helvetica, sans-serif;
+				  background-color: White;
+				  background-image: url('americanflag.jpg');
+				}
+.enl-bodytext	{ font-family: Verdana, Arial, Helvetica, sans-serif;
+				  font-size: small; 
+				}
+.enl-table		{ }
+.enl-caption	{ margin-left: 20px; margin-right: 20px; margin-top: 10px }
+.enl-td			{ color: Blue; font-size: small;
+				  font-family: Verdana, Arial, Helvetica, sans-serif }
+.enl-label		{ font-size: large; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 10px }
+.enl-homelink	{ }
+.enl-desc		{  }
+
+.enl-img		{ }
+.enl-linkstyle A:link		{ color: Blue }
+.enl-linkstyle A:visited	{ color: Blue }
+.enl-linkstyle A:active		{ color: Blue }

@@ -1,0 +1,67 @@
+a:link {
+	color: #0066FF;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+a:hover {
+        color: #3366ff;
+        background-color: #AFCDFA;
+        text-decoration: none;
+}
+a:visited {
+	color: #FF0066;
+	text-decoration: none;
+	font-weight: bold;
+}
+.boldgold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3366CC;
+}
+
+.largered { 
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 18px; 
+color: FF0000; 
+}
+
+.stdTextBlack {  
+font-family: Geneva, Arial, Helvetica, san-serif; 
+font-size: 12px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: 200; 
+color: #000000}
+
+.nonStdTextBlack {  
+font-family: Geneva, Arial, Helvetica, san-serif; 
+font-size: 9px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: normal; 
+color: #009999}
+
+.redHeading1 {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 16px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: none; color: #FF0000}
+.redHeading2 {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: none; color: #FF0000}
+.blackHeading1 {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 16px; font-style: normal; line-height: normal; font-weight: 500; font-variant: normal; text-transform: none; color: #000000}
+.blackHeading2 {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 13px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: none; color: #000000}
+.articleHeading1 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #990033; height: auto; width: auto}
+.alert00 {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 12px; font-style: normal; font-weight: bolder; color: #FF0000; background-color: #FFFF66; border: #9933FF; border-style: groove; border-top-width: medium; border-right-width: medium; border-bottom-width: medium; border-left-width: medium}
+.smallBulletin {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #000000}
+.MagentaHeader {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; font-style: oblique; color: #9933FF; text-decoration: underline}
+.smallTitle {  font-family: "Times New Roman", Times, serif; font-size: 14px; color: #c1230d; font-weight: bold}
+.LargeTitle {  font-family: "Times New Roman", Times, serif; font-size: 18px; color: #c1230d; font-weight: bolder; font-style: normal}
+.treasureRed {  font-family: "Times New Roman", Times, serif; font-size: 20px; font-style: oblique; line-height: normal; font-weight: bold; font-variant: normal; color: #FF0000}
+.footer {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #993333}
+.courierNews {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 11px; font-style: normal; line-height: normal; font-weight: 100; font-variant: normal; color: #FF0000; background-color: #FFFFFF}
+.Costanzo {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 14px; font-style: oblique; font-weight: bolder; color: #006633; float: none; height: auto; width: auto; border-color: #333333 #333333 #000000 #000000; border-style: inset; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin}
+.link {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #CC3300}
+
+
+.npBkg {  
+background-image: url(../images/pastorTmp.png); 
+background-repeat: no-repeat; 
+background-position: left center;
+}
