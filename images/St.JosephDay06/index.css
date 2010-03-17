@@ -1,0 +1,16 @@
+.gallerytitle {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-style: normal;
+  font-weight: bold;
+  color: #990000;
+  background-color: #FFFF66;
+  text-decoration: none;
+}
+.thumbnailtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+.navigationtext {
+  font-family: Arial, Helvetica, sans-serif;
+}
